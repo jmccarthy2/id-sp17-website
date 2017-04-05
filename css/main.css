@@ -1,0 +1,70 @@
+html {
+  font: 100%/1.15 sans-serif;
+  }
+
+body {
+  margin: 0;
+  background-color: #fff;
+  }
+
+  .max-width {
+    max-width: 58em;
+    padding: 0 1em;
+    margin: 0 auto;
+    }
+
+
+
+  #banner {
+    background-color: #999;
+    background: #999 url("../img/sunset-960w.jpg") no-repeat center top;
+    background-size: cover;
+    padding: 4% 0;
+    }
+
+  #banner h1 {
+    display: inline-block;
+    font: bold 3em/1.15 "Palatino", serif;
+    color: #111;
+    !background: rgba(255, 153, 102, .3);
+    padding: .3em;
+    !border-top: 2px solid #999;
+    !border-bottom: 2px solid #999;
+    }
+
+    #banner {
+      text-align: center;
+      }
+
+    #banner h1 {
+      font-size: 3.8em;
+      }
+
+  main {
+    font-family: Arial, sans-serif;
+    }
+
+  main p {
+    line-height: 1.45;
+  }
+
+  a:link    {
+  text-decoration:  none;
+  font-weight:      bold;
+  background-color: #fff;
+  color: #333;
+
+  }
+
+  a:visited {
+  text-decoration:  none;
+  font-weight:      bold;
+  background-color: #fff;
+  color:            #aaa;
+  }
+
+  .jump-link-top {
+  text-align: center;
+  font-family: arial;
+  margin: 1em 0 0 0;
+  }
