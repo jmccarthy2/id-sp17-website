@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Gallery</title>
+  <meta name="author" content="Jackie McCarthy">
+  <style>
+
+    figure {
+        margin: 0;
+    }
+
+    img {
+        width: auto;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .hero {
+      position: relative;
+    }
+
+    .hero h1 {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 1em;
+      font-family: sans-serif;
+      font-weight: normal;
+      text-align: center;
+      background: #fff;
+      background: rgba(255, 255, 255, .8);
+      !border: 1px dashed #000;
+      margin: auto;
+    }
+
+    .hero-photo-grid {
+      list-style: none;
+      text-align: center;
+      padding-left: 0;
+    }
+
+    .hero-photo-grid li {
+        display: inline;
+    }
+
+    .hero-photo-grid figure {
+        display: inline-block;
+        width: 25%;
+        height: 0;
+        padding-bottom: 25%;
+        border: 2px solid #333;
+        border-radius: 50%;
+        margin: 2%;
+        overflow: hidden;
+    }
+
+    .hero-photo-grid img {
+        max-width: 178%;
+        margin-left: -30%;
+    }
+
+  </style>
+<head>
+
+<body>
+
+  <header class="hero">
+  <h1>Coachella</h1>
+
+    <ol class="hero-photo-grid">
+      <li>
+        <figure id="photo-1">
+          <img alt="Coachella" src="img/worm-960w.jpg" width="240">
+        </figure>
+      </li>
+      <li>
+        <figure id="photo-2">
+          <img alt="Coachella" src="img/butterfly-960w.jpg" width="240">
+        </figure>
+      </li>
+      <li>
+        <figure id="photo-3">
+          <img alt="Coachella" src="img/crowd2-960w.jpg" width="240">
+        </figure>
+      </li>
+      <li>
+        <figure id="photo-4">
+          <img alt="Coachella" src="img/crowd3-960w.jpg" width="240">
+        </figure>
+      </li>
+      <li>
+        <figure id="photo-5">
+          <img alt="Coachella" src="img/night-960w.jpg" width="240">
+        </figure>
+      </li>
+      <li>
+        <figure id="photo-6">
+          <img alt="Coachella" src="img/astro-960w.jpg" width="240">
+        </figure>
+      </li>
+    </ol>
+
+</header>
+
+
+</body>
+</html>
