@@ -14,10 +14,9 @@ body {
     }
 
 
-
-  #banner {
+#banner {
     background-color: #999;
-    background: #999 url("../img/sunset-960w.jpg") no-repeat center top;
+    background: #999 url("../img/pinksky-960w.jpg") no-repeat center top;
     background-size: cover;
     padding: 4% 0;
     }
@@ -32,12 +31,17 @@ body {
     !border-bottom: 2px solid #999;
     }
 
-    #banner {
-      text-align: center;
-      }
+#banner {
+    text-align: center;
+    }
 
-    #banner h1 {
-      font-size: 3.8em;
+#banner h1 {
+    font-size: 3.8em;
+    }
+
+  #introduction {
+      font-family: "Palatino", serif;
+      font-size: 1.1em
       }
 
   main {
@@ -47,6 +51,17 @@ body {
   main p {
     line-height: 1.45;
   }
+
+nav {
+  padding: 2.2%;
+  !text-align: center;
+  font-size: 1.3em;
+}
+
+
+h3 {
+  font-size: 2em
+}
 
   a:link    {
   text-decoration:  none;
